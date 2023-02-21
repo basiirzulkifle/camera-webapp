@@ -1,6 +1,7 @@
 import React from 'react'
 import { Player, Controls } from '@lottiefiles/react-lottie-player';
 import Button from '@mui/material/Button';
+import { textAlign } from '@mui/system';
 function CardContent() {
   return (
     <div className='container'>
@@ -27,7 +28,12 @@ function CardContent() {
                 </p>
               </div> */}
               <div className="justify-center">
-                <Button variant="contained">OKAY</Button>
+                <Button 
+                variant="contained" 
+                style={{
+                  backgroundColor:"#AC103D",
+                  textAlign:"center"
+                  }}>OKAY</Button>
               </div>
           </div>
         </div>
